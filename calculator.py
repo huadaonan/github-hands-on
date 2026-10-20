@@ -21,3 +21,7 @@ if __name__ == "__main__":
     print(f"4 * 5 = {multiply(4, 5)}")
     print(f"2 ^ 3 = {power(2, 3)}")
     print(f"10 / 2 = {divide(10, 2)}")
+
+def modulo(a: float, b: float) -> float:
+    """取模（求余）运算"""
+    return a % b
